@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: auto;
+}
+
+header{
+    color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    margin: 20px 20px 10px 10px;
+}
+
+body{
+    background-color: burlywood;
+    margin: 10px;
+    padding: 10px 20px;
+}
+
+form{
+    background-color: rgb(30, 26, 26);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 20px;
+    padding: 20px;
+    border: 30px;
+}
+
+#result{
+    display: flex;
+    justify-content: center;
+}

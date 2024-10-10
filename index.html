@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Jiibal Calculator Assignment</title>
+</head>
+<body>
+    <header>
+        <h1>Calculator Project</h1>
+    </header>
+
+    <form action="" onsubmit="return false">
+        <input type="number" placeholder="Enter Number 1" id="input1">
+        <select name="operator" id="operator">
+            <option value="add">+</option>
+            <option value="subtract">-</option>
+            <option value="multiply">*</option>
+            <option value="divide">/</option>
+            <option value="raise">^</option>
+        </select>
+
+        <input type="number" placeholder="Enter Number 2" id="input2">
+
+        <button type="submit" onclick="calculator()">Submit</button>
+    </form>
+
+    <h2 id="result">Result: 0</h2>
+
+
+
+
+    <script src="./calculator.js"></script>
+    
+</body>
+</html>
